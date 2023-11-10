@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-buildx-
       - name: Docker meta
         id: meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v5
         with:
           # list of Docker images to use as base name for tags
           images: |
@@ -93,7 +93,7 @@ jobs:
             ${{ runner.os }}-buildx-debug-
       - name: Docker meta
         id: meta-debug
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v5
         with:
           # list of Docker images to use as base name for tags
           images: |
