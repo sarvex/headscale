@@ -13,7 +13,7 @@ require (
 	github.com/glebarez/sqlite v1.7.0
 	github.com/gofrs/uuid/v5 v5.0.0
 	github.com/google/go-cmp v0.5.9
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.2
 	github.com/klauspost/compress v1.17.0
